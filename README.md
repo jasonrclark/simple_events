@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-Create a new event dispatcher:
+Create a new event notifier:
 
-    events = SimpleEvent.new
+    events = SimpleEvent::Notifier.new
     
 Subscribe to an event:
 
