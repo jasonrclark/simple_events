@@ -1,5 +1,2 @@
 require "simple_events/version"
-
-module SimpleEvents
-  # Your code goes here...
-end
+require "simple_events/notifier"
