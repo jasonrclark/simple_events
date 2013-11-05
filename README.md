@@ -1,6 +1,8 @@
 # SimpleEvents
 
-A basic eventing system
+A basic eventing system. First presented at [RubyNation
+2013](http://rubynation.org). Slides available on [Speaker
+Deck](https://speakerdeck.com/jasonrclark/make-an-event-of-it).
 
 ## Installation
 
@@ -21,7 +23,7 @@ Or install it yourself as:
 Create a new event notifier:
 
     events = SimpleEvent::Notifier.new
-    
+
 Subscribe to an event:
 
     events.subscribe(:all_done) do |*args|
